@@ -5,7 +5,9 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { RiNodejsLine } from "react-icons/ri";
 import { TbBrandTypescript } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { animate, motion } from "framer-motion";
+import { SiPostgresql } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
+import { motion } from "framer-motion";
 
 export default class Technologies extends Component {
   iconVariants(duration) {
@@ -79,6 +81,22 @@ export default class Technologies extends Component {
             className="rounded-2xl border-4 border-neutral-800 p-4"
           >
             <TbBrandTypescript className="text-7xl text-blue-400" />
+          </motion.div>
+          <motion.div
+            variants={this.iconVariants(5.2)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <SiSpringboot className="text-7xl text-green-400" />
+          </motion.div>
+          <motion.div
+            variants={this.iconVariants(4.6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4"
+          >
+            <SiPostgresql className="text-7xl text-blue-500" />
           </motion.div>
           <motion.div
             variants={this.iconVariants(2.3)}

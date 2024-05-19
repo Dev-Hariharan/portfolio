@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { HERO_CONTENT, SUCCESS_COUNTERS } from "../constants/HariIndex";
-import profilepic from "../assets/kevinRushProfile.png";
+import profilepic from "../assets/profilepic.png";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
@@ -77,7 +77,7 @@ export default class Hero extends Component {
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1 }}
-                className="lg:w-2/4 max-sm:mt-8"
+                className="rounded-2xl lg:w-2/4 max-sm:mt-8"
                 src={profilepic}
                 alt="profile_picture"
               />
@@ -88,7 +88,7 @@ export default class Hero extends Component {
           onEnter={() => this.setState({ counterState: true })}
           onExit={() => this.setState({ counterState: false })}
         >
-          <div className="flex justify-evenly pt-20 pb-10 text-center">
+          <div className="flex justify-evenly -space-x-20 pt-20 pb-10 text-center">
             {SUCCESS_COUNTERS.map((data, index) => (
               <div
                 key={index}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants";
+import aboutImg from "../assets/profileimg.jpeg";
 import { motion } from "framer-motion";
+import { ABOUT_TEXT } from "../constants/HariIndex";
 
 export default class About extends Component {
   render() {
