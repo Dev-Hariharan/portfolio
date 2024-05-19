@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import AnimatedGif from "../global/AnimatedGif";
 import logo from "../assets/logo.png";
 
 export default class Navbar extends Component {
