@@ -18,7 +18,7 @@ export default class App extends Component {
           <About />
           <Technologies />
           <Experience />
-          <Projects />
+          {/* <Projects /> */}
           <Contact />
         </div>
       </div>

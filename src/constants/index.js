@@ -3,38 +3,60 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Specializing in MERN stack, Java frameworks, Open-source projects and containerization tools. Eager AI enthusiast, ready to innovate and transform industries.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `With a strong background in programming and full-stack development, I have 3+ years of hands-on expertise in software engineering across a variety of technologies. I specialise in open-source projects, and excel at building scalable infrastructures that are suited to client specifications, with an emphasis on user-centric architectural principles. My experience includes JavaScript and TypeScript-based MERN stacks, as well as Java frameworks such as Spring Boot and Quarkus, which allow me to provide unique solutions for web applications and microservice architectures. I am passionate about driving efficiency and success, and I am committed to using these technologies to build effective solutions.`;
+
+export const SUCCESS_COUNTERS = [
+  {
+    title: "Professional Projects",
+    counts: 6,
+  },
+  {
+    title: "Experience",
+    counts: 3,
+  },
+  {
+    title: "Achievements",
+    counts: 2,
+  },
+];
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
+    year: "2024 - Present",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Innomaint - Vijay Global Services",
+    description: `Led a team in developing and maintaining web applications using JavaScript & Typescript and Node.js & Nest.js. Implemented RESTful APIs and integrated with MongoDB/Postgres databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: [
+      "Javascript",
+      "Typescript",
+      "Node.js",
+      "Springboot",
+      "React.js",
+      "Next.js",
+      "MongoDB",
+      "Kafka",
+      "Postgres",
+    ],
+  },
+  {
+    year: "2021 - 2023",
+    role: "Software Engineer",
+    company: "Zaga Open Source Private Limited",
+    description: `Designed and developed user interfaces for web applications using Java frameworks, React.js, and container orchestration tools. Collaborated closely with backend and frontend developers to create end-to-end UI components. Implemented responsive designs and optimized both frontend and backend performance.`,
+    technologies: [
+      "Java",
+      "Javascript",
+      "React.js",
+      "Node.js",
+      "Springboot",
+      "Quarkus",
+      "MongoDB",
+      "Kafka",
+      "Docker",
+      "Postgresql",
+    ],
   },
 ];
 
@@ -70,7 +92,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+91 9944487742",
   email: "hariharan212k@gmail.com",
 };
