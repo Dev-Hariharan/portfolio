@@ -71,7 +71,7 @@ export default class Contact extends Component {
                       <div className="mt-2.5 relative">
                         <input
                           type="text"
-                          name="userName"
+                          name="user_name"
                           value={userName}
                           onChange={this.handleInputChange}
                           placeholder="Your Name"
@@ -84,7 +84,7 @@ export default class Contact extends Component {
                       <div className="mt-2.5 relative">
                         <input
                           type="email"
-                          name="userEmail"
+                          name="user_email"
                           value={userEmail}
                           onChange={this.handleInputChange}
                           placeholder="Your Email"
