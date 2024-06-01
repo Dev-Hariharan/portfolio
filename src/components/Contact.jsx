@@ -17,7 +17,16 @@ export default class Contact extends Component {
 
   handleInputChange = (e) => {
     const { name, value } = e.target;
-    this.setState({ [name]: value });
+    // Map the input name to the state property
+    const stateName = {
+      user_name: "userName",
+      user_email: "userEmail",
+      message: "message"
+    }[name];
+
+    if (stateName) {
+      this.setState({ [stateName]: value });
+    }
   };
 
   sendEmail = (e) => {
